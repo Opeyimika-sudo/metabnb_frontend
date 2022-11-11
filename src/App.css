@@ -27,8 +27,87 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  border: 2px solid linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: 2px solid #a02279;
   padding: 15px 30px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.hero {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  /* gap: 100px; */
+}
+
+.hero_text{
+
+}
+
+#hero_text--header{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
+  margin-bottom: 48px;
+}
+
+#span_style{
+  color: #a02279;
+}
+
+#hero_text--paragraph{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.form{
+  display: flex;
+  gap: 0;
+}
+
+#input {
+  padding: 18px 15px;
+  width: 50%;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #A3A3A3;
+  color: #B8B8B8;
+}
+
+input::placeholder{
+  color: #B8B8B8;
+}
+
+#submit{
+  width: 30%;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  padding: 17px 87px;
+  color: #fff;
+  border: 1px solid #a02279;
+}
+
+.hero_img{
+  position: relative;
+  outline: 3px solid red;
+}
+
+#hero_img1{
+  /* border-radius: 15px; */
+  left: 10px;
+  top: 50px;
+}
+
+#hero_img2{
+  top: 0;
 }
 
 
