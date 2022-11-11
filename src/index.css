@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Red Rose', cursive;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -15,6 +15,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: "AirbnbCerealWBd";
+  src: 
+      url('./fonts/AirbnbCerealWBd.ttf') format('embedded-opentype'), /* Internet Explorer */
+      url('./fonts/AirbnbCerealWBd.ttf') format('woff2'),             /* Super Modern Browsers */
+      url('./fonts/AirbnbCerealWBd.ttf') format('woff'),              /* Pretty Modern Browsers */
+      url('./fonts/AirbnbCerealWBd.ttf') format('truetype'),          /* Safari, Android, iOS */
+      url('./fonts/AirbnbCerealWBd.ttf') format('svg');               /* Legacy iOS */
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,6 +35,7 @@ a:hover {
 }
 
 body {
+  font-family: AirbnbCerealWBd;
   margin: 0;
   display: flex;
   place-items: center;
