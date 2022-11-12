@@ -203,11 +203,11 @@ input::placeholder{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  gap: 5px;
+  gap: 10px;
 }
 
 .card {
-  width: 275px;
+  flex: 1 0 21%;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
   border: 1px solid #D7D7D7;
   border-radius: 15px;
@@ -249,7 +249,7 @@ input::placeholder{
   margin: 0 auto;
   display: flex;
   align-items: top;
-  gap: 130px;
+  gap: 110px;
 }
 
 .cta_text {
