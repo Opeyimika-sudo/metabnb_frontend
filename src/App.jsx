@@ -4,6 +4,7 @@ import Header from '../src/components/Header'
 import Hero from '../src/components/Hero'
 import Logos from '../src/components/Logos'
 import Inspirations from './components/Inspirations'
+import Cta from './components/Cta'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Logos />
       <Inspirations />
+      <Cta />
     </div>
   )
 }
