@@ -226,6 +226,8 @@ input::placeholder{
   justify-content: space-between;
 }
 
+
+
 #bolden {
   font-weight: 700;
 }
@@ -234,6 +236,7 @@ input::placeholder{
   display: flex;
   gap: 5px;
 }
+
 
 /* Cta */
 .cta {
