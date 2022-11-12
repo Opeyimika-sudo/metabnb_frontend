@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Header */
 .header {
   width: 80%;
   max-width: 1440px;
@@ -40,6 +41,8 @@
 button:hover{
   cursor: pointer;
 }
+
+/* Hero */
 
 .hero {
   width: 80%;
@@ -133,6 +136,8 @@ input::placeholder{
   left: 250px;
 }
 
+/* Logos */
+
 .companies_logos{
   width: 100%;
   background-color: #a02279;
@@ -176,6 +181,8 @@ input::placeholder{
   font-size: 32px;
   letter-spacing: -0.03em;
 }
+
+/* Inspirations */
 
 .inspirations {
   margin: 55px auto;
@@ -227,4 +234,80 @@ input::placeholder{
 .star_rating {
   display: flex;
   gap: 5px;
+}
+
+/* Cta */
+.cta {
+  width: 100%;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: 1px solid #000000;
+  padding: 100px;
+  min-height: 780px;
+}
+
+.cta_content{
+  margin: 0 auto;
+  display: flex;
+  align-items: top;
+  gap: 130px;
+}
+
+.cta_text {
+  margin: 90px 0;
+  width: 30%;
+}
+
+#cta_text--header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 35px;
+}
+
+#cta_text--paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 60px;
+}
+
+.cta_click {
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #A02279;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 14px 33px;
+}
+
+#cta_images {
+  position: relative;
+}
+
+.nft {
+  position: absolute;
+}
+
+#nft_one {
+  top: 0;
+  left: 250px;
+}
+
+#nft_two{
+  top: 167px;
+  left: 0;
+}
+
+#nft_three{
+  top: 266px;
+  left: 300px;
 }
