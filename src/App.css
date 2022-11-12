@@ -222,7 +222,6 @@ input::placeholder{
 
 .card_text{
   display: flex;
-  flex-wrap: nowrap;
   font-size: 12px;
   justify-content: space-between;
 }
