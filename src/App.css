@@ -40,11 +40,12 @@ button:hover{
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  /* gap: 100px; */
+  min-height: 500px;
+  /* gap: 50px; */
 }
 
 .hero_text{
-
+  width: 55%;
 }
 
 #hero_text--header{
@@ -97,17 +98,31 @@ input::placeholder{
 
 .hero_img{
   position: relative;
-  outline: 3px solid red;
 }
 
-#hero_img1{
-  /* border-radius: 15px; */
+
+#hero_img1, #hero_img2, #hero_img3, #hero_img4{
+ position: absolute;
+}
+
+.one {
+  top: 95px;
   left: 10px;
-  top: 50px;
 }
 
-#hero_img2{
+.two{
   top: 0;
+  left: 250px;
+}
+
+.three {
+  top: 275px;
+  left: 10px;
+}
+
+.four {
+  top: 180px;
+  left: 250px;
 }
 
 
