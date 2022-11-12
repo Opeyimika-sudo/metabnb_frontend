@@ -202,7 +202,7 @@ input::placeholder{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 10px;
+  /* gap: 10px; */
   justify-content: space-around;
 }
 
@@ -254,7 +254,7 @@ input::placeholder{
 
 .cta_text {
   margin: 90px 0;
-  width: 30%;
+  width: 35%;
 }
 
 #cta_text--header {
