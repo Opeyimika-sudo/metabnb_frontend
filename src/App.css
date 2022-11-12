@@ -176,3 +176,55 @@ input::placeholder{
   font-size: 32px;
   letter-spacing: -0.03em;
 }
+
+.inspirations {
+  margin: 55px auto;
+  width: 80%;
+}
+
+#inspirations_text{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 275px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+  padding: 16px;
+  color: #434343;
+}
+
+.card_image{
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.card_text{
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+#bolden {
+  font-weight: 700;
+}
+
+.star_rating {
+  display: flex;
+  gap: 5px;
+}
