@@ -5,6 +5,7 @@ import Hero from '../src/components/Hero'
 import Logos from '../src/components/Logos'
 import Inspirations from './components/Inspirations'
 import Cta from './components/Cta'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Logos />
       <Inspirations />
       <Cta />
+      <Footer />
     </div>
   )
 }
