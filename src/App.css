@@ -41,11 +41,11 @@ button:hover{
   margin: 0 auto;
   display: flex;
   min-height: 500px;
-  gap: 30px;
+  /* gap: 30px; */
 }
 
 .hero_text{
-  width: 55%;
+  width: 60%;
 }
 
 #hero_text--header{
@@ -68,6 +68,7 @@ button:hover{
   font-size: 24px;
   line-height: 35px;
   color: #434343;
+  width: 90%;
 }
 
 .form{
