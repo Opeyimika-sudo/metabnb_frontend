@@ -223,7 +223,6 @@ input::placeholder{
 .card_text{
   display: flex;
   font-size: 12px;
-  gap: 5px;
   justify-content: space-between;
 }
 
