@@ -222,7 +222,13 @@ input::placeholder{
 
 .card_text{
   display: flex;
-  font-size: 12px;
+  font-size: 11px;
+  justify-content: space-between;
+}
+
+.card_text--edit{
+  display: flex;
+  font-size: 10px;
   justify-content: space-between;
 }
 
@@ -310,4 +316,60 @@ input::placeholder{
 #nft_three{
   top: 266px;
   left: 300px;
+}
+
+/* Footer */
+.footer {
+  background: #1d1d1e;
+  min-height: 300px;
+  padding-bottom: 60px;
+}
+
+.footer_access {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer_socials {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.footer_socials--icon:hover {
+  cursor: pointer;
+}
+
+.footer_text--header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.footer_text--content{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #F1F3F9;
+}
+
+.footer_text--item {
+  list-style: none;
+}
+
+.copyright {
+  width: 80%;
+  margin: 0 auto;
 }
