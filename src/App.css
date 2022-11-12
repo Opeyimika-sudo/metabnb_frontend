@@ -202,8 +202,8 @@ input::placeholder{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  /* gap: 10px; */
   justify-content: space-around;
+  gap: 5px;
 }
 
 .card {
@@ -223,7 +223,7 @@ input::placeholder{
 .card_text{
   display: flex;
   font-size: 12px;
-  gap: 10px;
+  gap: 5px;
   justify-content: space-between;
 }
 
