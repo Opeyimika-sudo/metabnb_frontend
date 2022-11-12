@@ -16,10 +16,10 @@ export default function Hero() {
         </form>
       </div>
       <div className="hero_img">
-        <img src={hero_img1} alt="" id="hero_img1"/>
-        <img src={hero_img2} alt="" id="hero_img2"/>
-        <img src={hero_img3} alt="" id="hero_img3"/>
-        <img src={hero_img4} alt="" id="hero_img4"/> 
+        <img src={hero_img1} alt="" id="hero_img1" className="one"/>
+        <img src={hero_img2} alt="" id="hero_img2" className="two"/>
+        <img src={hero_img3} alt="" id="hero_img3" className="three"/>
+        <img src={hero_img4} alt="" id="hero_img4" className="four"/>
       </div>
     </div>
   )
