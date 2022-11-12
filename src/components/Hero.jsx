@@ -1,8 +1,11 @@
 import React from 'react'
+
+// Hero images
 import hero_img1 from '../images/hero_image--one.png'
 import hero_img2 from '../images/hero_image--two.png'
 import hero_img3 from '../images/hero_image--three.png'
 import hero_img4 from '../images/hero_image--four.png'
+
 
 export default function Hero() {
   return (
