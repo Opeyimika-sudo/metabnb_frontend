@@ -41,7 +41,7 @@ button:hover{
   margin: 0 auto;
   display: flex;
   min-height: 500px;
-  /* gap: 50px; */
+  gap: 30px;
 }
 
 .hero_text{
